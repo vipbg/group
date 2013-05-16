@@ -1,10 +1,9 @@
 # !/bin/bash
 # 
-#  qZip: Compress a file or directory via pbs cluster
+#  qExtract: Decompress a file via pbs cluster
 #  Created by Aaron Wolen on 2013-05-13
 #  Based on http://nparikh.org/notes/zshrc.txt
 
-1="qR.sh.tar.gz"
 input=$1
 
 if [ -z "$1" ]; then 
